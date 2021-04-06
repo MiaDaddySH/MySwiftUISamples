@@ -16,13 +16,14 @@ struct LabelSample: View {
           .foregroundColor(.red)
           .frame(width: 300, height: 40, alignment: .bottomLeading)
         
+        
         // Image from app bundle
         Label("Learn SwiftUI", image: "swiftui-96x96")
         
         // With two @ViewBuilder closures
         Label{
           Text("Learn Swift2")
-            .font(.title2)  
+            .font(.title2)
             .foregroundColor(.green)
         }icon:{
           Image(systemName: "swift")
