@@ -22,7 +22,7 @@ struct LabelSample: View {
         // With two @ViewBuilder closures
         Label{
           Text("Learn Swift2")
-            .font(.title2)
+            .font(.title2)  
             .foregroundColor(.green)
         }icon:{
           Image(systemName: "swift")
