@@ -12,6 +12,11 @@
 		0BDAFC97261B975D00E82D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDAFC96261B975D00E82D7C /* Assets.xcassets */; };
 		0BDAFC9A261B975D00E82D7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDAFC99261B975D00E82D7C /* Preview Assets.xcassets */; };
 		0BDAFCA3261B978500E82D7C /* LabelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCA2261B978500E82D7C /* LabelSample.swift */; };
+		0BDAFCA6261C955100E82D7C /* ButtonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCA5261C955000E82D7C /* ButtonSample.swift */; };
+		0BDAFCAC261CA00A00E82D7C /* ButtonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCAB261CA00A00E82D7C /* ButtonContainer.swift */; };
+		0BDAFCAF261CA18C00E82D7C /* OutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCAE261CA18C00E82D7C /* OutlineButtonStyle.swift */; };
+		0BDAFCB2261CA1BE00E82D7C /* FilledButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCB1261CA1BE00E82D7C /* FilledButtonStyle.swift */; };
+		0BDAFCB6261CA3B300E82D7C /* LongPressButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCB5261CA3B300E82D7C /* LongPressButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		0BDAFC99261B975D00E82D7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BDAFC9B261B975D00E82D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BDAFCA2261B978500E82D7C /* LabelSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelSample.swift; sourceTree = "<group>"; };
+		0BDAFCA5261C955000E82D7C /* ButtonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSample.swift; sourceTree = "<group>"; };
+		0BDAFCAB261CA00A00E82D7C /* ButtonContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContainer.swift; sourceTree = "<group>"; };
+		0BDAFCAE261CA18C00E82D7C /* OutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButtonStyle.swift; sourceTree = "<group>"; };
+		0BDAFCB1261CA1BE00E82D7C /* FilledButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonStyle.swift; sourceTree = "<group>"; };
+		0BDAFCB5261CA3B300E82D7C /* LongPressButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,8 @@
 			children = (
 				0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */,
 				0BDAFC94261B975900E82D7C /* ContentView.swift */,
-				0BDAFCA2261B978500E82D7C /* LabelSample.swift */,
+				0BDAFCA8261C9FD100E82D7C /* Label */,
+				0BDAFCA9261C9FE500E82D7C /* Button */,
 				0BDAFC96261B975D00E82D7C /* Assets.xcassets */,
 				0BDAFC9B261B975D00E82D7C /* Info.plist */,
 				0BDAFC98261B975D00E82D7C /* Preview Content */,
@@ -70,6 +81,26 @@
 				0BDAFC99261B975D00E82D7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BDAFCA8261C9FD100E82D7C /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				0BDAFCA2261B978500E82D7C /* LabelSample.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		0BDAFCA9261C9FE500E82D7C /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				0BDAFCA5261C955000E82D7C /* ButtonSample.swift */,
+				0BDAFCAB261CA00A00E82D7C /* ButtonContainer.swift */,
+				0BDAFCB1261CA1BE00E82D7C /* FilledButtonStyle.swift */,
+				0BDAFCAE261CA18C00E82D7C /* OutlineButtonStyle.swift */,
+				0BDAFCB5261CA3B300E82D7C /* LongPressButtonStyle.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BDAFCA3261B978500E82D7C /* LabelSample.swift in Sources */,
+				0BDAFCB2261CA1BE00E82D7C /* FilledButtonStyle.swift in Sources */,
 				0BDAFC95261B975900E82D7C /* ContentView.swift in Sources */,
 				0BDAFC93261B975900E82D7C /* MySwiftUISamplesApp.swift in Sources */,
+				0BDAFCAC261CA00A00E82D7C /* ButtonContainer.swift in Sources */,
+				0BDAFCAF261CA18C00E82D7C /* OutlineButtonStyle.swift in Sources */,
+				0BDAFCA6261C955100E82D7C /* ButtonSample.swift in Sources */,
+				0BDAFCB6261CA3B300E82D7C /* LongPressButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
