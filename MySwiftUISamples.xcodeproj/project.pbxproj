@@ -17,6 +17,7 @@
 		0BDAFCAF261CA18C00E82D7C /* OutlineButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCAE261CA18C00E82D7C /* OutlineButtonStyle.swift */; };
 		0BDAFCB2261CA1BE00E82D7C /* FilledButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCB1261CA1BE00E82D7C /* FilledButtonStyle.swift */; };
 		0BDAFCB6261CA3B300E82D7C /* LongPressButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCB5261CA3B300E82D7C /* LongPressButtonStyle.swift */; };
+		0BDAFCBE261CD38800E82D7C /* TextFieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCBD261CD38800E82D7C /* TextFieldSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0BDAFCAE261CA18C00E82D7C /* OutlineButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButtonStyle.swift; sourceTree = "<group>"; };
 		0BDAFCB1261CA1BE00E82D7C /* FilledButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonStyle.swift; sourceTree = "<group>"; };
 		0BDAFCB5261CA3B300E82D7C /* LongPressButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonStyle.swift; sourceTree = "<group>"; };
+		0BDAFCBD261CD38800E82D7C /* TextFieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				0BDAFC94261B975900E82D7C /* ContentView.swift */,
 				0BDAFCA8261C9FD100E82D7C /* Label */,
 				0BDAFCA9261C9FE500E82D7C /* Button */,
+				0BDAFCBC261CD2B300E82D7C /* TextField */,
 				0BDAFC96261B975D00E82D7C /* Assets.xcassets */,
 				0BDAFC9B261B975D00E82D7C /* Info.plist */,
 				0BDAFC98261B975D00E82D7C /* Preview Content */,
@@ -101,6 +104,14 @@
 				0BDAFCB5261CA3B300E82D7C /* LongPressButtonStyle.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		0BDAFCBC261CD2B300E82D7C /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				0BDAFCBD261CD38800E82D7C /* TextFieldSample.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDAFCBE261CD38800E82D7C /* TextFieldSample.swift in Sources */,
 				0BDAFCA3261B978500E82D7C /* LabelSample.swift in Sources */,
 				0BDAFCB2261CA1BE00E82D7C /* FilledButtonStyle.swift in Sources */,
 				0BDAFC95261B975900E82D7C /* ContentView.swift in Sources */,
