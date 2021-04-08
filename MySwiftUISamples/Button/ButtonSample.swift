@@ -10,13 +10,13 @@ import SwiftUI
 struct ButtonSample: View {
   var body: some View {
     VStack{
-      //基本的用法
+      //1. 基本的用法
       Button("MyButton 1") {
         print("Click MyButton 1")
       }
-      //.buttonStyle(LongPressButtonStyle())
+      .buttonStyle(LongPressButtonStyle())
       
-      //添加了修饰符的按钮
+      //2. 添加了修饰符的按钮
       Button("MyButton 2") {
         print("Click MyButton 2")
       }
@@ -24,10 +24,10 @@ struct ButtonSample: View {
       .padding()
       .background(Color.green)
       .cornerRadius(10)
-      //.buttonStyle(LongPressButtonStyle())
+      .buttonStyle(LongPressButtonStyle())
       
       //到这里都很简单，但是有的时候我们的按钮的样式是相同的，那么我们不希望把代码随便拷来拷去。有两种比较基本的方法可以避免，一个是创建一个Button类，相同样式的Button可以使用同一个类，还有的一个方法是创建一些样式。下面我们来看一下。
-      //自定义Button类，有个缺点：无法修改按钮字体的颜色
+      //3. 自定义Button类，有个缺点：无法修改按钮字体的颜色
       FilledButton(title: "MyButton 3") {
         print("Click MyButton 3")
       }
