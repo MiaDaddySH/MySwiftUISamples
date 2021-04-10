@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B875FCD26222D5000789C78 /* BindingProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875FCC26222D5000789C78 /* BindingProductsView.swift */; };
+		0B8FFE99262221AF00316290 /* StateProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FFE98262221AF00316290 /* StateProductsView.swift */; };
+		0B8FFE9C262221EC00316290 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FFE9B262221EC00316290 /* Product.swift */; };
 		0BDAFC93261B975900E82D7C /* MySwiftUISamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */; };
 		0BDAFC95261B975900E82D7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFC94261B975900E82D7C /* ContentView.swift */; };
 		0BDAFC97261B975D00E82D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDAFC96261B975D00E82D7C /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B875FCC26222D5000789C78 /* BindingProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProductsView.swift; sourceTree = "<group>"; };
+		0B8FFE98262221AF00316290 /* StateProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProductsView.swift; sourceTree = "<group>"; };
+		0B8FFE9B262221EC00316290 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0BDAFC8F261B975900E82D7C /* MySwiftUISamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUISamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUISamplesApp.swift; sourceTree = "<group>"; };
 		0BDAFC94261B975900E82D7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B8FFE972622219200316290 /* PropertyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				0B8FFE9B262221EC00316290 /* Product.swift */,
+				0B8FFE98262221AF00316290 /* StateProductsView.swift */,
+				0B875FCC26222D5000789C78 /* BindingProductsView.swift */,
+			);
+			path = PropertyWrapper;
+			sourceTree = "<group>";
+		};
 		0BDAFC86261B975900E82D7C = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +84,7 @@
 			children = (
 				0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */,
 				0BDAFC94261B975900E82D7C /* ContentView.swift */,
+				0B8FFE972622219200316290 /* PropertyWrapper */,
 				0BDAFCA8261C9FD100E82D7C /* Label */,
 				0BDAFCA9261C9FE500E82D7C /* Button */,
 				0BDAFCBC261CD2B300E82D7C /* TextField */,
@@ -185,8 +202,11 @@
 			files = (
 				0BDAFCBE261CD38800E82D7C /* TextFieldSample.swift in Sources */,
 				0BDAFCA3261B978500E82D7C /* LabelSample.swift in Sources */,
+				0B8FFE99262221AF00316290 /* StateProductsView.swift in Sources */,
 				0BDAFCB2261CA1BE00E82D7C /* FilledButtonStyle.swift in Sources */,
 				0BDAFC95261B975900E82D7C /* ContentView.swift in Sources */,
+				0B8FFE9C262221EC00316290 /* Product.swift in Sources */,
+				0B875FCD26222D5000789C78 /* BindingProductsView.swift in Sources */,
 				0BDAFC93261B975900E82D7C /* MySwiftUISamplesApp.swift in Sources */,
 				0BDAFCAC261CA00A00E82D7C /* ButtonContainer.swift in Sources */,
 				0BDAFCAF261CA18C00E82D7C /* OutlineButtonStyle.swift in Sources */,
