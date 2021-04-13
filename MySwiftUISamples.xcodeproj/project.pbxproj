@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B875FCD26222D5000789C78 /* BindingProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875FCC26222D5000789C78 /* BindingProductsView.swift */; };
+		0B875FD126223E5600789C78 /* ObservedObjectAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875FD026223E5600789C78 /* ObservedObjectAlbumView.swift */; };
 		0B8FFE99262221AF00316290 /* StateProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FFE98262221AF00316290 /* StateProductsView.swift */; };
 		0B8FFE9C262221EC00316290 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FFE9B262221EC00316290 /* Product.swift */; };
 		0BDAFC93261B975900E82D7C /* MySwiftUISamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		0B875FCC26222D5000789C78 /* BindingProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProductsView.swift; sourceTree = "<group>"; };
+		0B875FD026223E5600789C78 /* ObservedObjectAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectAlbumView.swift; sourceTree = "<group>"; };
 		0B8FFE98262221AF00316290 /* StateProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProductsView.swift; sourceTree = "<group>"; };
 		0B8FFE9B262221EC00316290 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0BDAFC8F261B975900E82D7C /* MySwiftUISamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUISamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +61,7 @@
 				0B8FFE9B262221EC00316290 /* Product.swift */,
 				0B8FFE98262221AF00316290 /* StateProductsView.swift */,
 				0B875FCC26222D5000789C78 /* BindingProductsView.swift */,
+				0B875FD026223E5600789C78 /* ObservedObjectAlbumView.swift */,
 			);
 			path = PropertyWrapper;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				0B875FCD26222D5000789C78 /* BindingProductsView.swift in Sources */,
 				0BDAFC93261B975900E82D7C /* MySwiftUISamplesApp.swift in Sources */,
 				0BDAFCAC261CA00A00E82D7C /* ButtonContainer.swift in Sources */,
+				0B875FD126223E5600789C78 /* ObservedObjectAlbumView.swift in Sources */,
 				0BDAFCAF261CA18C00E82D7C /* OutlineButtonStyle.swift in Sources */,
 				0BDAFCA6261C955100E82D7C /* ButtonSample.swift in Sources */,
 				0BDAFCB6261CA3B300E82D7C /* LongPressButtonStyle.swift in Sources */,
