@@ -11,6 +11,7 @@
 		0B875FD126223E5600789C78 /* ObservedObjectAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B875FD026223E5600789C78 /* ObservedObjectAlbumView.swift */; };
 		0B8FFE99262221AF00316290 /* StateProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FFE98262221AF00316290 /* StateProductsView.swift */; };
 		0B8FFE9C262221EC00316290 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8FFE9B262221EC00316290 /* Product.swift */; };
+		0BB0189026261A2400A17A1F /* ImageSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0188F26261A2400A17A1F /* ImageSample.swift */; };
 		0BDAFC93261B975900E82D7C /* MySwiftUISamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */; };
 		0BDAFC95261B975900E82D7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFC94261B975900E82D7C /* ContentView.swift */; };
 		0BDAFC97261B975D00E82D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDAFC96261B975D00E82D7C /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		0B875FD026223E5600789C78 /* ObservedObjectAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectAlbumView.swift; sourceTree = "<group>"; };
 		0B8FFE98262221AF00316290 /* StateProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateProductsView.swift; sourceTree = "<group>"; };
 		0B8FFE9B262221EC00316290 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0BB0188F26261A2400A17A1F /* ImageSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSample.swift; sourceTree = "<group>"; };
 		0BDAFC8F261B975900E82D7C /* MySwiftUISamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUISamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUISamplesApp.swift; sourceTree = "<group>"; };
 		0BDAFC94261B975900E82D7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 			path = PropertyWrapper;
 			sourceTree = "<group>";
 		};
+		0BB0188E262619C300A17A1F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0BB0188F26261A2400A17A1F /* ImageSample.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		0BDAFC86261B975900E82D7C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 		0BDAFC91261B975900E82D7C /* MySwiftUISamples */ = {
 			isa = PBXGroup;
 			children = (
+				0BB0188E262619C300A17A1F /* Image */,
 				0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */,
 				0BDAFC94261B975900E82D7C /* ContentView.swift */,
 				0B8FFE972622219200316290 /* PropertyWrapper */,
@@ -144,6 +155,7 @@
 				0BDAFC8B261B975900E82D7C /* Sources */,
 				0BDAFC8C261B975900E82D7C /* Frameworks */,
 				0BDAFC8D261B975900E82D7C /* Resources */,
+				0B9D19E52627625A005DE35B /* Require SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -198,6 +210,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B9D19E52627625A005DE35B /* Require SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Require SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BDAFC8B261B975900E82D7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,6 +241,7 @@
 				0B8FFE99262221AF00316290 /* StateProductsView.swift in Sources */,
 				0BDAFCB2261CA1BE00E82D7C /* FilledButtonStyle.swift in Sources */,
 				0BDAFC95261B975900E82D7C /* ContentView.swift in Sources */,
+				0BB0189026261A2400A17A1F /* ImageSample.swift in Sources */,
 				0B8FFE9C262221EC00316290 /* Product.swift in Sources */,
 				0B875FCD26222D5000789C78 /* BindingProductsView.swift in Sources */,
 				0BDAFC93261B975900E82D7C /* MySwiftUISamplesApp.swift in Sources */,
@@ -345,6 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MySwiftUISamples/Preview Content\"";
+				DEVELOPMENT_TEAM = JND9XWCEGQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MySwiftUISamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -366,6 +401,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MySwiftUISamples/Preview Content\"";
+				DEVELOPMENT_TEAM = JND9XWCEGQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MySwiftUISamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

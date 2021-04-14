@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ButtonContainer: View {
   var body: some View {
-    //这里我们把FilledButtonStyle同时应用到了Container里面的三个按钮上面。这样可以节省不少代码。
-    //如果在第二个按钮提前添加了其他的button style，那么后加的不起作用。
+    // 这里我们把FilledButtonStyle同时应用到了Container里面的三个按钮上面。这样可以节省不少代码。
+    // 如果在第二个按钮提前添加了其他的button style，那么后加的不起作用。
     Container()
       .accentColor(.orange)
       .buttonStyle(FilledButtonStyle())

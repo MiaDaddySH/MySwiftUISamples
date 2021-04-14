@@ -34,7 +34,7 @@ struct BindingProductsView: View {
     Product(id: 2, title: "Orange", isFavorited: false),
     Product(id: 3, title: "Banana", isFavorited: true),
     Product(id: 4, title: "Watermelon", isFavorited: false),
-    Product(id: 5, title: "Stawberry", isFavorited: true),
+    Product(id: 5, title: "Stawberry", isFavorited: true)
   ]
   
   @State private var showFavorited: Bool = false
@@ -45,10 +45,10 @@ struct BindingProductsView: View {
       .foregroundColor(.yellow)
       .font(.title)
       
-      List{
+      List {
         ForEach(products) { product in
           if !self.showFavorited || product.isFavorited {
-            HStack{
+            HStack {
               Text(product.title)
               Spacer()
               Text(product.isFavorited ? "favorite" : "unfavorite")

@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-struct Episode: Identifiable{
+struct Episode: Identifiable {
   var id: Int
   var title: String
 }
@@ -51,8 +51,6 @@ struct ObservedObjectAlbumView: View {
     }
   }
 }
-
-
 
 struct ObservedObjectAlbumView_Previews: PreviewProvider {
     static var previews: some View {
