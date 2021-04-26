@@ -14,8 +14,6 @@ struct ContentView: View {
     }
 }
 
-This is my test for jenkins.
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
