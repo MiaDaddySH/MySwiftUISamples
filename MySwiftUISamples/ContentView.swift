@@ -12,8 +12,7 @@ struct ContentView: View {
       ObservedObjectAlbumView(player: PodcastPlayer())
             .padding()
     }
-  //Test jenkins
-  
+  //Test jenkins 1110
 }
 
 struct ContentView_Previews: PreviewProvider {
