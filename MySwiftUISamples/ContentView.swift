@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-      ObservedObjectAlbumView(player: PodcastPlayer())
-            .padding()
-    }
-  //Test jenkins 1110
+  var body: some View {
+    ObservedObjectAlbumView(player: PodcastPlayer())
+      .padding()
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
