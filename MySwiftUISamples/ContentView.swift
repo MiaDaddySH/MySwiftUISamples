@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-      ObservedObjectAlbumView(player: PodcastPlayer())
-            .padding()
+   //   ObservedObjectAlbumView(player: PodcastPlayer())
+        MasterView().padding()
     }
   //Test jenkins 1110
 }

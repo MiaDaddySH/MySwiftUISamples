@@ -23,6 +23,8 @@
 		0BDAFCB2261CA1BE00E82D7C /* FilledButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCB1261CA1BE00E82D7C /* FilledButtonStyle.swift */; };
 		0BDAFCB6261CA3B300E82D7C /* LongPressButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCB5261CA3B300E82D7C /* LongPressButtonStyle.swift */; };
 		0BDAFCBE261CD38800E82D7C /* TextFieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCBD261CD38800E82D7C /* TextFieldSample.swift */; };
+		5BBA1F9F2695B5AC0027A06C /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA1F9E2695B5AC0027A06C /* MasterView.swift */; };
+		5BBA1FA32695B5BD0027A06C /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA1FA22695B5BD0027A06C /* Master.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		0BDAFCB1261CA1BE00E82D7C /* FilledButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonStyle.swift; sourceTree = "<group>"; };
 		0BDAFCB5261CA3B300E82D7C /* LongPressButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonStyle.swift; sourceTree = "<group>"; };
 		0BDAFCBD261CD38800E82D7C /* TextFieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSample.swift; sourceTree = "<group>"; };
+		5BBA1F9E2695B5AC0027A06C /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		5BBA1FA22695B5BD0027A06C /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		0BDAFC91261B975900E82D7C /* MySwiftUISamples */ = {
 			isa = PBXGroup;
 			children = (
+				5BBA1F9D2695B5790027A06C /* Navigation */,
 				0BB0188E262619C300A17A1F /* Image */,
 				0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */,
 				0BDAFC94261B975900E82D7C /* ContentView.swift */,
@@ -143,6 +148,15 @@
 				0BDAFCBD261CD38800E82D7C /* TextFieldSample.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		5BBA1F9D2695B5790027A06C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA1F9E2695B5AC0027A06C /* MasterView.swift */,
+				5BBA1FA22695B5BD0027A06C /* Master.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +253,7 @@
 				0BDAFCBE261CD38800E82D7C /* TextFieldSample.swift in Sources */,
 				0BDAFCA3261B978500E82D7C /* LabelSample.swift in Sources */,
 				0B8FFE99262221AF00316290 /* StateProductsView.swift in Sources */,
+				5BBA1F9F2695B5AC0027A06C /* MasterView.swift in Sources */,
 				0BDAFCB2261CA1BE00E82D7C /* FilledButtonStyle.swift in Sources */,
 				0BDAFC95261B975900E82D7C /* ContentView.swift in Sources */,
 				0BB0189026261A2400A17A1F /* ImageSample.swift in Sources */,
@@ -248,6 +263,7 @@
 				0BDAFCAC261CA00A00E82D7C /* ButtonContainer.swift in Sources */,
 				0B875FD126223E5600789C78 /* ObservedObjectAlbumView.swift in Sources */,
 				0BDAFCAF261CA18C00E82D7C /* OutlineButtonStyle.swift in Sources */,
+				5BBA1FA32695B5BD0027A06C /* Master.swift in Sources */,
 				0BDAFCA6261C955100E82D7C /* ButtonSample.swift in Sources */,
 				0BDAFCB6261CA3B300E82D7C /* LongPressButtonStyle.swift in Sources */,
 			);
