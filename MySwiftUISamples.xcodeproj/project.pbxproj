@@ -25,6 +25,7 @@
 		0BDAFCBE261CD38800E82D7C /* TextFieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDAFCBD261CD38800E82D7C /* TextFieldSample.swift */; };
 		5BBA1F9F2695B5AC0027A06C /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA1F9E2695B5AC0027A06C /* MasterView.swift */; };
 		5BBA1FA32695B5BD0027A06C /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA1FA22695B5BD0027A06C /* Master.swift */; };
+		5BFE1AD926985344007064F7 /* DoublePoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFE1AD826985344007064F7 /* DoublePoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		0BDAFCBD261CD38800E82D7C /* TextFieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSample.swift; sourceTree = "<group>"; };
 		5BBA1F9E2695B5AC0027A06C /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 		5BBA1FA22695B5BD0027A06C /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
+		5BFE1AD826985344007064F7 /* DoublePoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublePoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		0BDAFC91261B975900E82D7C /* MySwiftUISamples */ = {
 			isa = PBXGroup;
 			children = (
+				5BFE1AD5269852DC007064F7 /* Leetcode */,
 				5BBA1F9D2695B5790027A06C /* Navigation */,
 				0BB0188E262619C300A17A1F /* Image */,
 				0BDAFC92261B975900E82D7C /* MySwiftUISamplesApp.swift */,
@@ -157,6 +160,22 @@
 				5BBA1FA22695B5BD0027A06C /* Master.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5BFE1AD5269852DC007064F7 /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				5BFE1AD626985315007064F7 /* 1 */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		5BFE1AD626985315007064F7 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				5BFE1AD826985344007064F7 /* DoublePoints.swift */,
+			);
+			path = 1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +282,7 @@
 				0BDAFCAC261CA00A00E82D7C /* ButtonContainer.swift in Sources */,
 				0B875FD126223E5600789C78 /* ObservedObjectAlbumView.swift in Sources */,
 				0BDAFCAF261CA18C00E82D7C /* OutlineButtonStyle.swift in Sources */,
+				5BFE1AD926985344007064F7 /* DoublePoints.swift in Sources */,
 				5BBA1FA32695B5BD0027A06C /* Master.swift in Sources */,
 				0BDAFCA6261C955100E82D7C /* ButtonSample.swift in Sources */,
 				0BDAFCB6261CA3B300E82D7C /* LongPressButtonStyle.swift in Sources */,
